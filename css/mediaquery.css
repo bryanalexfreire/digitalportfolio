@@ -1,0 +1,150 @@
+@media only screen and (max-width: 900px) {
+
+    .menu{
+        position: relative;
+    }
+    .menu{
+        position: absolute;
+        width: 80%;
+        top:62px;
+        transform: translateX(-200vh);
+        align-items: center;
+
+        height: calc(100vh - 62px);
+        background: linear-gradient( rgba(255, 255, 33, .9)0%, rgba(11,87,143,.9) 50%, rgba(143,7,4,.9) 100%);
+        transition: all 1.5s ease-in; 
+    }
+    .menu-bar{
+        align-items: center;
+        display: flex;
+    }
+    .menu-bar-icon{
+        cursor: pointer;
+    }
+    .menu-toggle{
+        transform: translateX(0px);
+    }
+    .card-profile{
+        clear: both;
+        display: block;
+        justify-content: center;
+    }
+    .menu{
+        display: block;
+        height: 100vh;
+        text-align: center;
+        width: 100%;
+        font-size: var(--font-size);
+    }
+    .item{
+        width: 90%;
+        margin: 30px auto;
+        border: 2px solid var(--neutro-one);
+        color: var(--neutro-one);
+    } 
+    .photo-profile{
+        width: 100%;
+        margin: 2px;
+    }
+    .photo{
+        width: 300px;
+        height: 300px;
+    }
+    .photo-personal{
+        margin: 6%;
+        height: 250px;
+        width: 250px;
+    }
+    .description-profile{
+        width: 100%;
+    }
+    .dev{
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 900px){
+    .card-profile{
+        width: 100%;
+    }
+    
+    .photo{
+        width: 400px;
+        height: 400px;
+    }
+    .photo-personal{
+        margin: 4%;
+        height: 350px;
+        width: 350px;
+    }
+    .description-profile{
+        padding-top: 50px;
+    }
+    .h1{
+        font-family: 'Monserrat', sans-serif;
+        font-size: 1.5em;
+    }
+    .name{
+
+        font-size: 2.4em;
+    }
+    .loglt{
+        font-family: 'Simonetta', sans-serif;
+        color: var(--second-color);
+    }
+    .text-dprofile{
+        padding-top: 10px;
+        text-align: start;
+    }
+    .dev{
+        text-align: center;
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 1100px) {
+
+    .photo{
+        width: 400px;
+        height: 400px;
+    }
+    .photo-personal{
+        margin: 4%;
+        height: 350px;
+        width: 350px;
+    }
+    .description-profile{
+        padding-top: 50px;
+    }
+    .h1{
+        font-family: 'Monserrat', sans-serif;
+        font-size: 1.5em;
+    }
+    .name{
+        margin: 10px 100px;
+        font-size: 3.5em;
+    }
+    .loglt{
+        font-family: 'Simonetta', sans-serif;
+        color: var(--second-color);
+    }
+    .text-dprofile{
+        padding-top: 10px;
+        text-align: start;
+    }
+    .dev{
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .main{
+        margin: 0 auto; 
+    }   
+    .name{
+        margin: 10px 100px;
+        font-size: 3.5em;
+    }
+    .photo-personal{
+        margin: 4%;
+        height: 350px;
+        width: 350px;
+    }
+}
